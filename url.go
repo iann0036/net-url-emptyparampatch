@@ -894,7 +894,7 @@ func (v Values) Get(key string) string {
 	return vs[0]
 }
 
-// Checks whether a value is set
+// Checks whether a value is set.
 func (v Values) IsSet(key string) bool {
 	if _, ok := v[key]; ok {
 		return true
